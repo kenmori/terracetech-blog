@@ -1,0 +1,42 @@
+/*
+Theme Name:   amphibious child theme
+Description:  Write here a brief description about your child-theme
+Author:       moriken
+Author URL:   https://kenjimorita.jp/
+Template:     amphibious
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  amphibious-child
+*/
+
+/* Write here your own personal stylesheet */
+
+.site-title {
+  font-size: 1.0rem;
+}
+.post-wrapper-single .entry-title {
+  font-size: 1rem;
+}
+.post-thumbnail {
+    width: 180px;
+    margin: 0 auto;
+}
+
+.has-large-font-size {
+  font-size: 30px;
+}
+
+@media (min-width: 1200px){
+  .site-title {
+    font-size: 48px;
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 768px){
+  .post-wrapper-single .entry-title {
+    font-size: 38px;
+    font-size: 1.575rem;
+  }
+}
